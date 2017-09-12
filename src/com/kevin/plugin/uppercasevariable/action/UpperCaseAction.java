@@ -57,7 +57,7 @@ public class UpperCaseAction extends AnAction {
                 myField = createTextFieldComponent();
                 messagePanel.add(createScrollableTextComponent(), BorderLayout.CENTER);
 
-                JCheckBox jCheckBox = new JCheckBox("is data?");
+                JCheckBox jCheckBox = new JCheckBox("is Kotlin?");
                 jCheckBox.addActionListener(e -> {
                     if (jCheckBox.isSelected()) {
                         isKotlin = true;
